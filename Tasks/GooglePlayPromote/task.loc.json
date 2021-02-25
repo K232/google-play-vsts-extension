@@ -14,7 +14,7 @@
   ],
   "version": {
     "Major": "3",
-    "Minor": "183",
+    "Minor": "184",
     "Patch": "0"
   },
   "minimumAgentVersion": "1.83.0",
@@ -145,6 +145,11 @@
     "Success": "ms-resource:loc.messages.Success",
     "Failure": "ms-resource:loc.messages.Failure",
     "ReturnedNullEdit": "ms-resource:loc.messages.ReturnedNullEdit"
+  },
+  "restrictions": {
+    "commands": {
+      "mode": "restricted"
+    }
   },
   "helpMarkDown": "ms-resource:loc.helpMarkDown"
 }
